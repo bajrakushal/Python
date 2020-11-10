@@ -65,7 +65,7 @@ for i in range(1,num+1):
         print(f"1/{i}")
         result += 1 / i
 
-print("The sum of series upto {} terms: {}".format(num,result))
+print("The sum of series upto {} terms: {}".format(num,round(result,4)))
 
 print("-------------------------------------------------------")
 
