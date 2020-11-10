@@ -12,6 +12,7 @@ for i in range(1,101):
 print("-------------------------------------------------------")
 
 #Ask the user for a string and print out whether this string is a palindrome or not
+
 value=input("Enter a string: ")
 reverse=""
 for i in range(len(value)-1,-1,-1):
@@ -68,6 +69,7 @@ print("The sum of series upto {} terms: {}".format(num,result))
 
 print("-------------------------------------------------------")
 
+#Print a pattern
 
 row=int(input("Enter the rows for the pattern: "))
 k=2*row-2
@@ -83,6 +85,7 @@ print("-------------------------------------------------------")
 
 #Create a dictionary that has a key value pair of letters and the number of occurrences of
 #that letter in a string.
+
 string=input("Enter a string: ")
 sample_dic={}
 for i in string:
